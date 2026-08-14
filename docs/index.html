@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Presence Pathways: a mixed-methods research prototype for felt divine presence and psychological change." />
+    <title>Presence Pathways — Research Prototype</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Presence Pathways home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Presence Pathways</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#model">Model</a>
+        <a href="#patterns">Patterns</a>
+        <a href="#voices">Interpretation</a>
+        <a href="#methods">Methods</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Reproducible research prototype</p>
+          <h1>How does felt presence become <em>lasting change?</em></h1>
+          <p class="hero-deck">A mixed-methods toolkit for studying experiences interpreted as divine grace—without reducing first-person meaning to a score or deciding metaphysical truth.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#patterns">Explore the demo</a>
+            <a class="button secondary" href="research_protocol.md">Read the protocol</a>
+          </div>
+          <p class="data-note"><strong>Public-safe by design.</strong> Every observation and quotation shown here is synthetic.</p>
+        </div>
+        <div class="hero-visual" aria-label="Conceptual illustration of an experience unfolding through time">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="signal-card signal-a"><span>01</span><strong>Moment</strong><small>body · attention</small></div>
+          <div class="signal-card signal-b"><span>02</span><strong>Meaning</strong><small>relation · story</small></div>
+          <div class="signal-card signal-c"><span>03</span><strong>Integration</strong><small>community · time</small></div>
+          <svg class="path-lines" viewBox="0 0 480 400" aria-hidden="true">
+            <path d="M80,105 C210,48 245,176 380,118" />
+            <path d="M90,206 C192,274 270,166 392,246" />
+            <path d="M116,330 C214,256 294,362 408,302" />
+          </svg>
+        </div>
+      </section>
+
+      <section class="metrics-wrap" aria-label="Demo dataset summary">
+        <div class="metric"><span id="metric-participants">—</span><small>synthetic participants</small></div>
+        <div class="metric"><span id="metric-observations">—</span><small>daily observations</small></div>
+        <div class="metric"><span id="metric-days">—</span><small>study days</small></div>
+        <div class="metric"><span>2</span><small>methods in dialogue</small></div>
+      </section>
+
+      <section class="section model-section" id="model">
+        <div class="section-heading split">
+          <div>
+            <p class="kicker">Conceptual architecture</p>
+            <h2>One event, multiple pathways</h2>
+          </div>
+          <p>The design follows change from a situated practice and felt event into distinct processes. These pathways are hypotheses to investigate, not conclusions built into the instrument.</p>
+        </div>
+        <div class="pathway-grid">
+          <article class="pathway-card tone-moss"><span class="card-index">01</span><div class="path-icon">◎</div><h3>Attentional</h3><p>Does worry loosen its hold? What becomes salient instead?</p></article>
+          <article class="pathway-card tone-coral"><span class="card-index">02</span><div class="path-icon">≈</div><h3>Emotional</h3><p>How do peace, gratitude, tears, and ambivalence unfold?</p></article>
+          <article class="pathway-card tone-blue"><span class="card-index">03</span><div class="path-icon">↔</div><h3>Relational</h3><p>Does the presence feel knowing, loving, guiding, or demanding?</p></article>
+          <article class="pathway-card tone-gold"><span class="card-index">04</span><div class="path-icon">§</div><h3>Narrative</h3><p>How is suffering re-situated within a life story and future?</p></article>
+          <article class="pathway-card tone-violet"><span class="card-index">05</span><div class="path-icon">⌂</div><h3>Communal</h3><p>Who supplies language, recognition, doubt, practice, and care?</p></article>
+        </div>
+      </section>
+
+      <section class="section analysis-section" id="patterns">
+        <div class="section-heading">
+          <p class="kicker light">Synthetic analysis</p>
+          <h2>Patterns locate questions.<br />They do not settle meaning.</h2>
+          <p>Person-centered slopes ask whether stronger-than-usual felt presence on a participant's own timeline co-occurs with stronger-than-usual pathway scores.</p>
+        </div>
+        <div class="analysis-grid">
+          <article class="panel forest-panel">
+            <div class="panel-heading"><div><p class="mini-label">Within-person model</p><h3>Pathway associations</h3></div><span class="pill">95% cluster bootstrap CI</span></div>
+            <div id="forest-plot" class="chart" role="img" aria-label="Forest plot of synthetic within-person associations"></div>
+            <p class="chart-note">Dots are slopes; lines are uncertainty intervals. Synthetic design signal only.</p>
+          </article>
+          <article class="panel lag-panel">
+            <p class="mini-label">Temporal question</p>
+            <h3>Does anything remain tomorrow?</h3>
+            <div class="lag-value"><span id="lag-estimate">—</span><small>next-day slope</small></div>
+            <p id="lag-copy">Loading the consecutive-day analysis…</p>
+            <div class="boundary"><span>Interpretive boundary</span><p>Temporal ordering helps, but it does not establish causation. Stressors, sleep, relationships, and selection into practice may change both experience and recovery.</p></div>
+          </article>
+        </div>
+        <article class="panel trajectory-panel">
+          <div class="panel-heading">
+            <div><p class="mini-label">Case trajectory</p><h3>Intensity and recovery are not the same thing</h3></div>
+            <label class="select-label">Synthetic case<select id="participant-select" aria-label="Choose a synthetic case"></select></label>
+          </div>
+          <div id="trajectory-chart" class="chart wide" role="img" aria-label="Line chart for one synthetic participant"></div>
+          <div class="legend"><span><i class="legend-presence"></i>Felt presence</span><span><i class="legend-recovery"></i>Recovery index</span></div>
+        </article>
+      </section>
+
+      <section class="section voices-section" id="voices">
+        <div class="section-heading split">
+          <div><p class="kicker">Interpretive layer</p><h2>Return to the person's words</h2></div>
+          <p>Excerpts are read in sequence, context, and relationship. Keyword matches may help retrieve passages; only a human researcher can make and defend an interpretation.</p>
+        </div>
+        <div class="code-key" role="group" aria-label="Filter synthetic excerpts">
+          <button class="filter active" data-filter="all">All excerpts</button>
+          <button class="filter" data-filter="embodied_change">Embodied</button>
+          <button class="filter" data-filter="relational_presence">Relational</button>
+          <button class="filter" data-filter="communal_validation">Communal</button>
+          <button class="filter" data-filter="persistence">Persistence</button>
+          <button class="filter" data-filter="distress_signal">Ambiguity & distress</button>
+        </div>
+        <div id="excerpt-grid" class="excerpt-grid" aria-live="polite"></div>
+        <p class="synthetic-reminder">All quotations above are fictional, programmatically selected demonstration text. They are not participant testimony.</p>
+      </section>
+
+      <section class="section methods-section" id="methods">
+        <div class="section-heading centered"><p class="kicker light">Research workflow</p><h2>Ethnography first. Structure in service of depth.</h2><p>Each layer answers a different question and creates an opportunity to revise the others.</p></div>
+        <div class="method-timeline">
+          <article><span>01</span><h3>Listen</h3><p>Orientation interviews learn participants' vocabulary, biography, practices, and interpretive worlds.</p><small>60–90 min</small></article>
+          <article><span>02</span><h3>Follow</h3><p>Twenty-one brief daily prompts track variation in ordinary life, not just memorable peaks.</p><small>21 days</small></article>
+          <article><span>03</span><h3>Observe</h3><p>Fieldnotes attend to how practices are taught and experiences become socially recognizable.</p><small>situated</small></article>
+          <article><span>04</span><h3>Reconstruct</h3><p>Follow-up interviews separate the event's intensity from its later interpretation and integration.</p><small>multiple horizons</small></article>
+          <article><span>05</span><h3>Integrate</h3><p>Joint displays place trajectories beside scenes, relationships, rival explanations, and reflexive memos.</p><small>human judgment</small></article>
+        </div>
+        <div class="safeguard-grid">
+          <article><h3>Metaphysical humility</h3><p>Study lived reality without claiming to prove or disprove divine action.</p></article>
+          <article><h3>Non-pathologizing safety</h3><p>Attend to agency, distress, control, sleep, functioning, and risk—not unusualness alone.</p></article>
+          <article><h3>Public-data restraint</h3><p>Keep identifiable testimony, locations, exact times, audio, and linkage keys outside GitHub.</p></article>
+          <article><h3>Researcher reflexivity</h3><p>Document how researchers' assumptions, social position, prior training, and expectations shape interpretation.</p></article>
+        </div>
+        <div class="method-links"><a href="analysis_plan.md">Analysis plan <span>→</span></a><a href="ethics.md">Ethics & reflexivity <span>→</span></a><a href="data_dictionary.md">Data dictionary <span>→</span></a></div>
+      </section>
+    </main>
+
+    <footer>
+      <div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span></span><span>Presence Pathways</span></a><p>An independent research software project by Minhyeong Yun.</p></div>
+      <div class="footer-note"><strong>Independent prototype</strong><span>Synthetic demonstration data only</span><span>MIT code · CC BY 4.0 synthetic data</span></div>
+    </footer>
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

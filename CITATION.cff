@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, please cite it as follows."
+title: "Presence Pathways: A Mixed-Methods Research Prototype"
+type: software
+authors:
+  - family-names: Yun
+    given-names: Minhyeong
+version: 0.1.0
+date-released: 2026-08-14
+license: MIT

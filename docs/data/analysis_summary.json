@@ -1,0 +1,1405 @@
+{
+  "metadata": {
+    "participants": 36,
+    "observations": 672,
+    "study_days": 21,
+    "synthetic": true,
+    "causal_claim": false
+  },
+  "associations": [
+    {
+      "exposure": "presence_intensity",
+      "outcome": "attentional_pathway",
+      "estimate": 0.739,
+      "ci_low": 0.689,
+      "ci_high": 0.789,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    },
+    {
+      "exposure": "presence_intensity",
+      "outcome": "emotional_pathway",
+      "estimate": 0.673,
+      "ci_low": 0.622,
+      "ci_high": 0.731,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    },
+    {
+      "exposure": "presence_intensity",
+      "outcome": "relational_pathway",
+      "estimate": 0.811,
+      "ci_low": 0.737,
+      "ci_high": 0.889,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    },
+    {
+      "exposure": "presence_intensity",
+      "outcome": "narrative_pathway",
+      "estimate": 0.471,
+      "ci_low": 0.406,
+      "ci_high": 0.533,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    },
+    {
+      "exposure": "presence_intensity",
+      "outcome": "communal_pathway",
+      "estimate": 0.414,
+      "ci_low": 0.319,
+      "ci_high": 0.499,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    },
+    {
+      "exposure": "presence_intensity",
+      "outcome": "recovery_index",
+      "estimate": 0.572,
+      "ci_low": 0.524,
+      "ci_high": 0.622,
+      "observations": 672,
+      "participants": 36,
+      "interpretation": "Same-day within-person association"
+    }
+  ],
+  "lagged_association": {
+    "exposure": "presence_intensity",
+    "outcome": "next_outcome",
+    "estimate": 0.011,
+    "ci_low": -0.032,
+    "ci_high": 0.056,
+    "observations": 563,
+    "participants": 36,
+    "interpretation": "Today's presence and next-day recovery; exploratory, non-causal"
+  },
+  "daily_summary": [
+    {
+      "study_day": 1,
+      "presence_intensity": 4.58,
+      "recovery_index": 5.3,
+      "peace": 4.92,
+      "distress": 3.36,
+      "observations": 32
+    },
+    {
+      "study_day": 2,
+      "presence_intensity": 5.23,
+      "recovery_index": 5.78,
+      "peace": 5.18,
+      "distress": 2.54,
+      "observations": 33
+    },
+    {
+      "study_day": 3,
+      "presence_intensity": 4.99,
+      "recovery_index": 5.59,
+      "peace": 5.37,
+      "distress": 3.04,
+      "observations": 29
+    },
+    {
+      "study_day": 4,
+      "presence_intensity": 4.76,
+      "recovery_index": 5.34,
+      "peace": 4.99,
+      "distress": 3.19,
+      "observations": 34
+    },
+    {
+      "study_day": 5,
+      "presence_intensity": 4.61,
+      "recovery_index": 5.61,
+      "peace": 4.96,
+      "distress": 2.6,
+      "observations": 29
+    },
+    {
+      "study_day": 6,
+      "presence_intensity": 5.45,
+      "recovery_index": 6.27,
+      "peace": 5.75,
+      "distress": 2.12,
+      "observations": 31
+    },
+    {
+      "study_day": 7,
+      "presence_intensity": 4.92,
+      "recovery_index": 5.76,
+      "peace": 5.41,
+      "distress": 2.91,
+      "observations": 34
+    },
+    {
+      "study_day": 8,
+      "presence_intensity": 4.95,
+      "recovery_index": 5.53,
+      "peace": 4.94,
+      "distress": 3.12,
+      "observations": 32
+    },
+    {
+      "study_day": 9,
+      "presence_intensity": 4.61,
+      "recovery_index": 5.58,
+      "peace": 5.3,
+      "distress": 2.96,
+      "observations": 34
+    },
+    {
+      "study_day": 10,
+      "presence_intensity": 4.28,
+      "recovery_index": 5.26,
+      "peace": 4.69,
+      "distress": 3.48,
+      "observations": 30
+    },
+    {
+      "study_day": 11,
+      "presence_intensity": 5.04,
+      "recovery_index": 5.65,
+      "peace": 5.04,
+      "distress": 2.9,
+      "observations": 32
+    },
+    {
+      "study_day": 12,
+      "presence_intensity": 4.51,
+      "recovery_index": 5.67,
+      "peace": 4.96,
+      "distress": 2.65,
+      "observations": 30
+    },
+    {
+      "study_day": 13,
+      "presence_intensity": 4.93,
+      "recovery_index": 5.89,
+      "peace": 5.35,
+      "distress": 2.8,
+      "observations": 35
+    },
+    {
+      "study_day": 14,
+      "presence_intensity": 5.13,
+      "recovery_index": 5.95,
+      "peace": 5.73,
+      "distress": 2.85,
+      "observations": 35
+    },
+    {
+      "study_day": 15,
+      "presence_intensity": 4.65,
+      "recovery_index": 5.52,
+      "peace": 5.01,
+      "distress": 2.99,
+      "observations": 28
+    },
+    {
+      "study_day": 16,
+      "presence_intensity": 4.89,
+      "recovery_index": 5.8,
+      "peace": 5.32,
+      "distress": 2.77,
+      "observations": 32
+    },
+    {
+      "study_day": 17,
+      "presence_intensity": 4.75,
+      "recovery_index": 5.58,
+      "peace": 5.03,
+      "distress": 3.24,
+      "observations": 35
+    },
+    {
+      "study_day": 18,
+      "presence_intensity": 5.0,
+      "recovery_index": 5.86,
+      "peace": 5.28,
+      "distress": 2.67,
+      "observations": 32
+    },
+    {
+      "study_day": 19,
+      "presence_intensity": 4.72,
+      "recovery_index": 5.81,
+      "peace": 5.21,
+      "distress": 2.91,
+      "observations": 32
+    },
+    {
+      "study_day": 20,
+      "presence_intensity": 5.04,
+      "recovery_index": 6.16,
+      "peace": 5.45,
+      "distress": 2.56,
+      "observations": 30
+    },
+    {
+      "study_day": 21,
+      "presence_intensity": 5.09,
+      "recovery_index": 6.12,
+      "peace": 5.56,
+      "distress": 2.8,
+      "observations": 33
+    }
+  ],
+  "trajectories": [
+    {
+      "participant_id": "SYN001",
+      "study_day": 1,
+      "presence_intensity": 4.2,
+      "recovery_index": 5.93,
+      "peace": 5.0,
+      "distress": 3.4
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 2,
+      "presence_intensity": 4.8,
+      "recovery_index": 4.82,
+      "peace": 5.7,
+      "distress": 5.3
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 4,
+      "presence_intensity": 6.2,
+      "recovery_index": 5.42,
+      "peace": 5.8,
+      "distress": 3.0
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 6,
+      "presence_intensity": 5.8,
+      "recovery_index": 6.48,
+      "peace": 7.7,
+      "distress": 4.2
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 7,
+      "presence_intensity": 5.0,
+      "recovery_index": 5.7,
+      "peace": 6.5,
+      "distress": 3.9
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 8,
+      "presence_intensity": 6.9,
+      "recovery_index": 6.52,
+      "peace": 7.7,
+      "distress": 3.1
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 9,
+      "presence_intensity": 5.7,
+      "recovery_index": 5.0,
+      "peace": 5.8,
+      "distress": 5.1
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 10,
+      "presence_intensity": 2.7,
+      "recovery_index": 5.32,
+      "peace": 5.4,
+      "distress": 3.2
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 11,
+      "presence_intensity": 4.5,
+      "recovery_index": 5.6,
+      "peace": 6.1,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 12,
+      "presence_intensity": 1.6,
+      "recovery_index": 4.4,
+      "peace": 3.3,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 13,
+      "presence_intensity": 5.0,
+      "recovery_index": 5.25,
+      "peace": 5.2,
+      "distress": 4.0
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 14,
+      "presence_intensity": 4.7,
+      "recovery_index": 5.1,
+      "peace": 4.9,
+      "distress": 4.3
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 15,
+      "presence_intensity": 3.6,
+      "recovery_index": 4.53,
+      "peace": 3.3,
+      "distress": 5.1
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 17,
+      "presence_intensity": 4.2,
+      "recovery_index": 4.05,
+      "peace": 4.4,
+      "distress": 6.6
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 18,
+      "presence_intensity": 5.4,
+      "recovery_index": 6.05,
+      "peace": 6.3,
+      "distress": 2.0
+    },
+    {
+      "participant_id": "SYN001",
+      "study_day": 20,
+      "presence_intensity": 6.5,
+      "recovery_index": 6.25,
+      "peace": 5.4,
+      "distress": 3.6
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 1,
+      "presence_intensity": 3.5,
+      "recovery_index": 6.2,
+      "peace": 4.7,
+      "distress": 2.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 2,
+      "presence_intensity": 3.3,
+      "recovery_index": 6.42,
+      "peace": 5.2,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 4,
+      "presence_intensity": 5.9,
+      "recovery_index": 7.12,
+      "peace": 6.7,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 5,
+      "presence_intensity": 3.3,
+      "recovery_index": 6.57,
+      "peace": 4.9,
+      "distress": 0.5
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 6,
+      "presence_intensity": 4.2,
+      "recovery_index": 7.0,
+      "peace": 4.7,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 7,
+      "presence_intensity": 3.3,
+      "recovery_index": 5.28,
+      "peace": 3.6,
+      "distress": 2.3
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 8,
+      "presence_intensity": 4.0,
+      "recovery_index": 6.48,
+      "peace": 4.1,
+      "distress": 0.7
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 9,
+      "presence_intensity": 3.1,
+      "recovery_index": 5.4,
+      "peace": 3.7,
+      "distress": 1.2
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 10,
+      "presence_intensity": 4.0,
+      "recovery_index": 5.32,
+      "peace": 2.6,
+      "distress": 2.5
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 11,
+      "presence_intensity": 2.7,
+      "recovery_index": 5.35,
+      "peace": 2.9,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 12,
+      "presence_intensity": 3.8,
+      "recovery_index": 5.82,
+      "peace": 5.5,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 13,
+      "presence_intensity": 6.2,
+      "recovery_index": 7.12,
+      "peace": 6.8,
+      "distress": 1.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 14,
+      "presence_intensity": 2.8,
+      "recovery_index": 6.43,
+      "peace": 4.3,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 15,
+      "presence_intensity": 4.5,
+      "recovery_index": 6.12,
+      "peace": 4.6,
+      "distress": 1.0
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 16,
+      "presence_intensity": 4.6,
+      "recovery_index": 5.62,
+      "peace": 4.5,
+      "distress": 2.2
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 17,
+      "presence_intensity": 4.6,
+      "recovery_index": 5.62,
+      "peace": 4.0,
+      "distress": 1.5
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 18,
+      "presence_intensity": 5.0,
+      "recovery_index": 6.28,
+      "peace": 5.1,
+      "distress": 1.1
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 19,
+      "presence_intensity": 6.5,
+      "recovery_index": 7.45,
+      "peace": 6.6,
+      "distress": 0.2
+    },
+    {
+      "participant_id": "SYN002",
+      "study_day": 21,
+      "presence_intensity": 4.2,
+      "recovery_index": 6.88,
+      "peace": 6.4,
+      "distress": 1.2
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 1,
+      "presence_intensity": 2.6,
+      "recovery_index": 3.65,
+      "peace": 3.7,
+      "distress": 4.9
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 2,
+      "presence_intensity": 5.9,
+      "recovery_index": 6.32,
+      "peace": 5.1,
+      "distress": 2.6
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 3,
+      "presence_intensity": 5.1,
+      "recovery_index": 5.32,
+      "peace": 6.2,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 4,
+      "presence_intensity": 6.5,
+      "recovery_index": 5.22,
+      "peace": 5.4,
+      "distress": 4.5
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 5,
+      "presence_intensity": 4.0,
+      "recovery_index": 4.1,
+      "peace": 4.6,
+      "distress": 5.7
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 6,
+      "presence_intensity": 2.6,
+      "recovery_index": 4.28,
+      "peace": 4.4,
+      "distress": 5.0
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 7,
+      "presence_intensity": 4.2,
+      "recovery_index": 3.97,
+      "peace": 3.5,
+      "distress": 6.4
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 8,
+      "presence_intensity": 4.8,
+      "recovery_index": 5.03,
+      "peace": 5.8,
+      "distress": 5.0
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 9,
+      "presence_intensity": 4.7,
+      "recovery_index": 5.55,
+      "peace": 6.0,
+      "distress": 2.6
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 11,
+      "presence_intensity": 4.1,
+      "recovery_index": 5.35,
+      "peace": 4.8,
+      "distress": 3.4
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 13,
+      "presence_intensity": 5.5,
+      "recovery_index": 5.88,
+      "peace": 6.4,
+      "distress": 3.5
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 14,
+      "presence_intensity": 4.5,
+      "recovery_index": 5.43,
+      "peace": 4.9,
+      "distress": 3.5
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 15,
+      "presence_intensity": 6.1,
+      "recovery_index": 6.82,
+      "peace": 6.9,
+      "distress": 3.0
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 16,
+      "presence_intensity": 4.0,
+      "recovery_index": 4.2,
+      "peace": 3.6,
+      "distress": 6.1
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 17,
+      "presence_intensity": 4.3,
+      "recovery_index": 4.53,
+      "peace": 4.6,
+      "distress": 4.4
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 19,
+      "presence_intensity": 2.2,
+      "recovery_index": 5.32,
+      "peace": 4.7,
+      "distress": 3.8
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 20,
+      "presence_intensity": 6.4,
+      "recovery_index": 6.4,
+      "peace": 4.5,
+      "distress": 3.1
+    },
+    {
+      "participant_id": "SYN003",
+      "study_day": 21,
+      "presence_intensity": 5.0,
+      "recovery_index": 6.68,
+      "peace": 6.3,
+      "distress": 2.2
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 1,
+      "presence_intensity": 5.4,
+      "recovery_index": 5.98,
+      "peace": 6.2,
+      "distress": 2.0
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 2,
+      "presence_intensity": 5.2,
+      "recovery_index": 5.98,
+      "peace": 3.0,
+      "distress": 1.4
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 3,
+      "presence_intensity": 5.6,
+      "recovery_index": 4.35,
+      "peace": 4.0,
+      "distress": 4.5
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 4,
+      "presence_intensity": 5.2,
+      "recovery_index": 4.35,
+      "peace": 4.5,
+      "distress": 5.7
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 6,
+      "presence_intensity": 7.1,
+      "recovery_index": 7.72,
+      "peace": 7.3,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 7,
+      "presence_intensity": 4.9,
+      "recovery_index": 5.6,
+      "peace": 5.3,
+      "distress": 2.6
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 8,
+      "presence_intensity": 5.7,
+      "recovery_index": 5.75,
+      "peace": 4.8,
+      "distress": 2.5
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 9,
+      "presence_intensity": 5.4,
+      "recovery_index": 5.88,
+      "peace": 5.7,
+      "distress": 2.2
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 10,
+      "presence_intensity": 3.6,
+      "recovery_index": 3.7,
+      "peace": 3.5,
+      "distress": 4.5
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 11,
+      "presence_intensity": 5.7,
+      "recovery_index": 5.6,
+      "peace": 4.7,
+      "distress": 3.6
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 12,
+      "presence_intensity": 7.4,
+      "recovery_index": 7.57,
+      "peace": 8.1,
+      "distress": 1.4
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 13,
+      "presence_intensity": 5.6,
+      "recovery_index": 7.4,
+      "peace": 6.0,
+      "distress": 0.4
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 14,
+      "presence_intensity": 6.3,
+      "recovery_index": 6.05,
+      "peace": 5.3,
+      "distress": 3.6
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 16,
+      "presence_intensity": 5.5,
+      "recovery_index": 7.72,
+      "peace": 6.5,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 17,
+      "presence_intensity": 5.2,
+      "recovery_index": 5.42,
+      "peace": 6.2,
+      "distress": 3.9
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 18,
+      "presence_intensity": 5.1,
+      "recovery_index": 7.12,
+      "peace": 6.3,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 19,
+      "presence_intensity": 5.8,
+      "recovery_index": 5.98,
+      "peace": 5.8,
+      "distress": 2.0
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 20,
+      "presence_intensity": 6.9,
+      "recovery_index": 7.18,
+      "peace": 7.0,
+      "distress": 2.4
+    },
+    {
+      "participant_id": "SYN004",
+      "study_day": 21,
+      "presence_intensity": 6.1,
+      "recovery_index": 7.43,
+      "peace": 6.8,
+      "distress": 1.4
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 1,
+      "presence_intensity": 6.7,
+      "recovery_index": 6.4,
+      "peace": 5.5,
+      "distress": 2.6
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 2,
+      "presence_intensity": 5.2,
+      "recovery_index": 4.28,
+      "peace": 4.4,
+      "distress": 5.4
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 3,
+      "presence_intensity": 4.7,
+      "recovery_index": 6.28,
+      "peace": 7.4,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 4,
+      "presence_intensity": 3.7,
+      "recovery_index": 5.48,
+      "peace": 6.1,
+      "distress": 4.9
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 5,
+      "presence_intensity": 5.9,
+      "recovery_index": 5.48,
+      "peace": 5.0,
+      "distress": 2.9
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 6,
+      "presence_intensity": 8.4,
+      "recovery_index": 7.7,
+      "peace": 7.0,
+      "distress": 1.4
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 7,
+      "presence_intensity": 5.5,
+      "recovery_index": 6.6,
+      "peace": 8.1,
+      "distress": 3.2
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 8,
+      "presence_intensity": 3.8,
+      "recovery_index": 3.62,
+      "peace": 4.8,
+      "distress": 5.5
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 10,
+      "presence_intensity": 3.4,
+      "recovery_index": 4.38,
+      "peace": 3.7,
+      "distress": 4.3
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 13,
+      "presence_intensity": 4.2,
+      "recovery_index": 3.65,
+      "peace": 4.0,
+      "distress": 6.0
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 14,
+      "presence_intensity": 5.2,
+      "recovery_index": 5.78,
+      "peace": 6.3,
+      "distress": 4.0
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 16,
+      "presence_intensity": 4.4,
+      "recovery_index": 6.12,
+      "peace": 5.0,
+      "distress": 2.1
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 17,
+      "presence_intensity": 5.3,
+      "recovery_index": 6.43,
+      "peace": 6.4,
+      "distress": 3.2
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 18,
+      "presence_intensity": 3.7,
+      "recovery_index": 5.03,
+      "peace": 3.4,
+      "distress": 4.4
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 19,
+      "presence_intensity": 4.1,
+      "recovery_index": 3.95,
+      "peace": 3.1,
+      "distress": 5.0
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 20,
+      "presence_intensity": 3.5,
+      "recovery_index": 5.72,
+      "peace": 6.1,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN005",
+      "study_day": 21,
+      "presence_intensity": 5.6,
+      "recovery_index": 5.35,
+      "peace": 6.6,
+      "distress": 5.3
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 1,
+      "presence_intensity": 5.9,
+      "recovery_index": 5.68,
+      "peace": 5.9,
+      "distress": 4.8
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 2,
+      "presence_intensity": 6.9,
+      "recovery_index": 6.22,
+      "peace": 6.6,
+      "distress": 4.2
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 3,
+      "presence_intensity": 5.1,
+      "recovery_index": 4.22,
+      "peace": 4.7,
+      "distress": 5.5
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 4,
+      "presence_intensity": 5.8,
+      "recovery_index": 3.88,
+      "peace": 3.2,
+      "distress": 5.3
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 5,
+      "presence_intensity": 3.0,
+      "recovery_index": 5.15,
+      "peace": 5.6,
+      "distress": 4.2
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 6,
+      "presence_intensity": 4.1,
+      "recovery_index": 6.62,
+      "peace": 5.2,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 7,
+      "presence_intensity": 4.0,
+      "recovery_index": 4.58,
+      "peace": 4.1,
+      "distress": 4.8
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 8,
+      "presence_intensity": 5.8,
+      "recovery_index": 6.12,
+      "peace": 6.3,
+      "distress": 3.5
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 9,
+      "presence_intensity": 4.7,
+      "recovery_index": 5.68,
+      "peace": 4.2,
+      "distress": 2.7
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 10,
+      "presence_intensity": 5.6,
+      "recovery_index": 4.1,
+      "peace": 4.6,
+      "distress": 6.9
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 11,
+      "presence_intensity": 8.3,
+      "recovery_index": 6.22,
+      "peace": 5.4,
+      "distress": 3.5
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 12,
+      "presence_intensity": 5.4,
+      "recovery_index": 4.78,
+      "peace": 4.7,
+      "distress": 5.6
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 13,
+      "presence_intensity": 3.5,
+      "recovery_index": 3.65,
+      "peace": 2.9,
+      "distress": 5.8
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 14,
+      "presence_intensity": 4.5,
+      "recovery_index": 4.98,
+      "peace": 4.3,
+      "distress": 2.7
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 15,
+      "presence_intensity": 4.6,
+      "recovery_index": 5.85,
+      "peace": 6.0,
+      "distress": 3.8
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 16,
+      "presence_intensity": 3.4,
+      "recovery_index": 4.42,
+      "peace": 5.3,
+      "distress": 6.1
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 17,
+      "presence_intensity": 7.2,
+      "recovery_index": 6.55,
+      "peace": 6.4,
+      "distress": 2.4
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 18,
+      "presence_intensity": 5.8,
+      "recovery_index": 7.08,
+      "peace": 7.5,
+      "distress": 2.3
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 19,
+      "presence_intensity": 7.6,
+      "recovery_index": 8.72,
+      "peace": 8.7,
+      "distress": 1.7
+    },
+    {
+      "participant_id": "SYN006",
+      "study_day": 20,
+      "presence_intensity": 6.9,
+      "recovery_index": 7.45,
+      "peace": 7.7,
+      "distress": 1.8
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 1,
+      "presence_intensity": 4.9,
+      "recovery_index": 6.45,
+      "peace": 4.7,
+      "distress": 0.3
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 2,
+      "presence_intensity": 8.3,
+      "recovery_index": 6.58,
+      "peace": 5.6,
+      "distress": 0.8
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 4,
+      "presence_intensity": 4.0,
+      "recovery_index": 5.4,
+      "peace": 4.5,
+      "distress": 1.2
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 5,
+      "presence_intensity": 4.0,
+      "recovery_index": 6.1,
+      "peace": 4.4,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 7,
+      "presence_intensity": 8.8,
+      "recovery_index": 8.78,
+      "peace": 8.2,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 8,
+      "presence_intensity": 5.2,
+      "recovery_index": 6.72,
+      "peace": 6.5,
+      "distress": 1.8
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 9,
+      "presence_intensity": 4.9,
+      "recovery_index": 6.92,
+      "peace": 7.5,
+      "distress": 0.3
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 10,
+      "presence_intensity": 4.0,
+      "recovery_index": 6.38,
+      "peace": 5.5,
+      "distress": 2.2
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 13,
+      "presence_intensity": 5.7,
+      "recovery_index": 7.52,
+      "peace": 6.5,
+      "distress": 0.1
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 14,
+      "presence_intensity": 5.4,
+      "recovery_index": 6.82,
+      "peace": 5.0,
+      "distress": 1.4
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 15,
+      "presence_intensity": 4.5,
+      "recovery_index": 5.05,
+      "peace": 4.0,
+      "distress": 2.9
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 16,
+      "presence_intensity": 5.9,
+      "recovery_index": 8.23,
+      "peace": 8.1,
+      "distress": 0.7
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 17,
+      "presence_intensity": 5.6,
+      "recovery_index": 7.82,
+      "peace": 8.1,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 18,
+      "presence_intensity": 5.8,
+      "recovery_index": 6.6,
+      "peace": 5.7,
+      "distress": 1.7
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 19,
+      "presence_intensity": 3.8,
+      "recovery_index": 5.6,
+      "peace": 3.5,
+      "distress": 1.7
+    },
+    {
+      "participant_id": "SYN007",
+      "study_day": 21,
+      "presence_intensity": 7.1,
+      "recovery_index": 8.68,
+      "peace": 6.6,
+      "distress": 0.0
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 1,
+      "presence_intensity": 3.3,
+      "recovery_index": 4.92,
+      "peace": 4.5,
+      "distress": 3.3
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 2,
+      "presence_intensity": 4.8,
+      "recovery_index": 5.12,
+      "peace": 5.0,
+      "distress": 1.7
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 3,
+      "presence_intensity": 6.4,
+      "recovery_index": 4.88,
+      "peace": 4.4,
+      "distress": 3.9
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 4,
+      "presence_intensity": 6.2,
+      "recovery_index": 6.25,
+      "peace": 5.8,
+      "distress": 1.1
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 5,
+      "presence_intensity": 4.0,
+      "recovery_index": 5.62,
+      "peace": 5.3,
+      "distress": 2.0
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 6,
+      "presence_intensity": 4.6,
+      "recovery_index": 5.35,
+      "peace": 4.2,
+      "distress": 2.3
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 7,
+      "presence_intensity": 3.4,
+      "recovery_index": 5.45,
+      "peace": 3.5,
+      "distress": 1.9
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 8,
+      "presence_intensity": 6.0,
+      "recovery_index": 5.95,
+      "peace": 5.2,
+      "distress": 1.7
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 9,
+      "presence_intensity": 5.8,
+      "recovery_index": 6.93,
+      "peace": 8.2,
+      "distress": 2.1
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 10,
+      "presence_intensity": 4.7,
+      "recovery_index": 5.68,
+      "peace": 6.2,
+      "distress": 2.8
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 11,
+      "presence_intensity": 3.3,
+      "recovery_index": 5.57,
+      "peace": 4.8,
+      "distress": 1.8
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 12,
+      "presence_intensity": 4.2,
+      "recovery_index": 4.65,
+      "peace": 2.2,
+      "distress": 3.0
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 13,
+      "presence_intensity": 4.4,
+      "recovery_index": 4.9,
+      "peace": 5.0,
+      "distress": 3.7
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 14,
+      "presence_intensity": 7.2,
+      "recovery_index": 7.75,
+      "peace": 6.7,
+      "distress": 0.9
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 16,
+      "presence_intensity": 5.7,
+      "recovery_index": 4.9,
+      "peace": 4.3,
+      "distress": 3.8
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 17,
+      "presence_intensity": 5.5,
+      "recovery_index": 5.5,
+      "peace": 4.8,
+      "distress": 3.2
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 19,
+      "presence_intensity": 2.5,
+      "recovery_index": 3.2,
+      "peace": 3.1,
+      "distress": 6.2
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 20,
+      "presence_intensity": 7.5,
+      "recovery_index": 7.38,
+      "peace": 7.0,
+      "distress": 0.3
+    },
+    {
+      "participant_id": "SYN008",
+      "study_day": 21,
+      "presence_intensity": 7.2,
+      "recovery_index": 7.72,
+      "peace": 6.3,
+      "distress": 0.0
+    }
+  ]
+}
