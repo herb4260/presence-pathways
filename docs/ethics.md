@@ -29,6 +29,19 @@ The public demo does not implement automated risk prediction.
 
 Researchers should ask who has authority to name an experience, whose interpretation is doubted, and whether testimony is rewarded, pressured, or silenced. Community recognition can support integration, but it can also constrain what participants feel safe to report.
 
+## Reflexivity statement template
+
+The researcher should update a living memo addressing:
+
+- personal religious or nonreligious commitments;
+- professional training and its default explanations;
+- experiences that create strong identification or skepticism;
+- power differences arising from institutional, clinical, or professional roles;
+- expectations about healing, trauma, and transformation;
+- moments when participants revise the researcher's categories.
+
+Reflexivity is not a confession that invalidates research. It is an auditable account of how knowledge is produced.
+
 ## Public repository rule
 
 Only synthetic data are permitted in this repository. Real transcripts, exact quotations, audio, raw fieldnotes, participant IDs, and linkage keys must remain outside GitHub in an approved secure environment.

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "presence-pathways"
+version = "0.1.0"
+description = "A mixed-methods research prototype for felt divine presence and psychological change."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Minhyeong Yun"}]
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

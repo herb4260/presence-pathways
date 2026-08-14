@@ -36,4 +36,6 @@ All demonstration rows are synthetic.
 | communal_pathway | community_connection |
 | recovery_index | mean(peace, worry_relief, daily_functioning, 10 − distress) |
 
+## Interview excerpts
+
 `machine_suggested_codes` are auditable keyword matches only. `human_verified_codes` and `interpretive_memo` represent a fictional researcher's review in the synthetic demonstration.

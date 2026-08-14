@@ -1,1 +1,302 @@
-[{"excerpt_id":"EX001","excerpt_text":"I first noticed warmth across my chest. The situation had not changed, but my attention was no longer trapped by the worry.","human_verified_codes":"embodied_change|attentional_shift","interpretive_memo":"Body sensation and attentional movement are narrated together.","synthetic":true},{"excerpt_id":"EX002","excerpt_text":"The tears came before I could explain anything. I understood them as relief and as being known by God.","human_verified_codes":"embodied_change|relational_presence","interpretive_memo":"Tears acquire meaning through a perceived relationship.","synthetic":true},{"excerpt_id":"EX003","excerpt_text":"During prayer I felt loved rather than judged. That changed the story I had been telling about myself.","human_verified_codes":"relational_presence|narrative_reframing","interpretive_memo":"Divine relationship supports a revised self-narrative.","synthetic":true},{"excerpt_id":"EX004","excerpt_text":"The peace was intense that evening, but what made it last was talking about it with people who knew me well.","human_verified_codes":"emotional_change|communal_validation|persistence","interpretive_memo":"Community is described as a mechanism of durability.","synthetic":true},{"excerpt_id":"EX005","excerpt_text":"I was grateful the next morning, although the old fear returned later. Recovery felt more like a rhythm than a single cure.","human_verified_codes":"emotional_change|nonlinear_change","interpretive_memo":"The account resists a simple permanent-transformation story.","synthetic":true},{"excerpt_id":"EX006","excerpt_text":"I could choose whether to continue the prayer and I remained able to work. That sense of control mattered to how I understood it.","human_verified_codes":"agency|functioning|interpretive_boundary","interpretive_memo":"Agency and functioning help describe, not diagnose, the experience.","synthetic":true}]
+[
+  {
+    "excerpt_id": "EX001",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I first noticed warmth across my chest. The situation had not changed, but my attention was no longer trapped by the worry.",
+    "human_verified_codes": "embodied_change|attentional_shift",
+    "interpretive_memo": "Body sensation and attentional movement are narrated together.",
+    "machine_suggested_codes": "attentional_shift|embodied_change|nonlinear_change",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX002",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The tears came before I could explain anything. I understood them as relief and as being known by God.",
+    "human_verified_codes": "embodied_change|relational_presence",
+    "interpretive_memo": "Tears acquire meaning through a perceived relationship.",
+    "machine_suggested_codes": "embodied_change|emotional_change|narrative_reframing",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX003",
+    "interview_wave": "follow_up",
+    "excerpt_text": "During prayer I felt loved rather than judged. That changed the story I had been telling about myself.",
+    "human_verified_codes": "relational_presence|narrative_reframing",
+    "interpretive_memo": "Divine relationship supports a revised self-narrative.",
+    "machine_suggested_codes": "narrative_reframing|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX004",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The peace was intense that evening, but what made it last was talking about it with people who knew me well.",
+    "human_verified_codes": "emotional_change|communal_validation|persistence",
+    "interpretive_memo": "Community is described as a mechanism of durability.",
+    "machine_suggested_codes": "communal_validation|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX005",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I was grateful the next morning, although the old fear returned later. Recovery felt more like a rhythm than a single cure.",
+    "human_verified_codes": "emotional_change|nonlinear_change",
+    "interpretive_memo": "The account resists a simple permanent-transformation story.",
+    "machine_suggested_codes": "nonlinear_change|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX006",
+    "interview_wave": "midpoint",
+    "excerpt_text": "I could choose whether to continue the prayer and I remained able to work. That sense of control mattered to how I understood it.",
+    "human_verified_codes": "agency|functioning|interpretive_boundary",
+    "interpretive_memo": "Agency and functioning help describe, not diagnose, the experience.",
+    "machine_suggested_codes": "agency|narrative_reframing|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX007",
+    "interview_wave": "follow_up",
+    "excerpt_text": "A scripture phrase became personally vivid. It did not sound audible, but it felt addressed to my exact situation.",
+    "human_verified_codes": "attentional_shift|relational_presence|sensory_quality",
+    "interpretive_memo": "The participant carefully distinguishes vividness from external sound.",
+    "machine_suggested_codes": "attentional_shift|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX008",
+    "interview_wave": "midpoint",
+    "excerpt_text": "At first I kept the experience private because I was unsure what others would call it. The small group gave me language for it.",
+    "human_verified_codes": "ambiguity|communal_validation|narrative_reframing",
+    "interpretive_memo": "Shared language organizes an initially ambiguous event.",
+    "machine_suggested_codes": "communal_validation|narrative_reframing",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX009",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I still had difficult days, but the memory of being accompanied changed how alone the difficulty felt.",
+    "human_verified_codes": "relational_presence|persistence|nonlinear_change",
+    "interpretive_memo": "Persistence lies in a changed relation to distress, not its disappearance.",
+    "machine_suggested_codes": "nonlinear_change|persistence|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX010",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The experience became frightening when I could not sleep and felt pushed to act. I sought help from both a clinician and my pastor.",
+    "human_verified_codes": "distress_signal|agency|community_care",
+    "interpretive_memo": "The synthetic case demonstrates a dual clinical and community response.",
+    "machine_suggested_codes": "agency|distress_signal",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX011",
+    "interview_wave": "follow_up",
+    "excerpt_text": "Singing with other people made the presence feel stronger than when I prayed alone, though the quiet prayer felt more intimate.",
+    "human_verified_codes": "communal_validation|relational_presence|practice_comparison",
+    "interpretive_memo": "Different practices shape distinct qualities rather than a single intensity scale.",
+    "machine_suggested_codes": "relational_presence|communal_validation",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX012",
+    "interview_wave": "midpoint",
+    "excerpt_text": "Weeks later I could not reproduce the same warmth. What remained was a more patient way of responding to fear.",
+    "human_verified_codes": "embodied_change|persistence|behavioral_integration",
+    "interpretive_memo": "A transient sensation is distinguished from longer behavioral integration.",
+    "machine_suggested_codes": "persistence|agency|embodied_change",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX013",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I first noticed warmth across my chest. The situation had not changed, but my attention was no longer trapped by the worry.",
+    "human_verified_codes": "embodied_change|attentional_shift",
+    "interpretive_memo": "Body sensation and attentional movement are narrated together.",
+    "machine_suggested_codes": "attentional_shift|embodied_change|nonlinear_change",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX014",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The tears came before I could explain anything. I understood them as relief and as being known by God.",
+    "human_verified_codes": "embodied_change|relational_presence",
+    "interpretive_memo": "Tears acquire meaning through a perceived relationship.",
+    "machine_suggested_codes": "embodied_change|emotional_change|narrative_reframing",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX015",
+    "interview_wave": "follow_up",
+    "excerpt_text": "During prayer I felt loved rather than judged. That changed the story I had been telling about myself.",
+    "human_verified_codes": "relational_presence|narrative_reframing",
+    "interpretive_memo": "Divine relationship supports a revised self-narrative.",
+    "machine_suggested_codes": "narrative_reframing|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX016",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The peace was intense that evening, but what made it last was talking about it with people who knew me well.",
+    "human_verified_codes": "emotional_change|communal_validation|persistence",
+    "interpretive_memo": "Community is described as a mechanism of durability.",
+    "machine_suggested_codes": "communal_validation|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX017",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I was grateful the next morning, although the old fear returned later. Recovery felt more like a rhythm than a single cure.",
+    "human_verified_codes": "emotional_change|nonlinear_change",
+    "interpretive_memo": "The account resists a simple permanent-transformation story.",
+    "machine_suggested_codes": "nonlinear_change|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX018",
+    "interview_wave": "midpoint",
+    "excerpt_text": "I could choose whether to continue the prayer and I remained able to work. That sense of control mattered to how I understood it.",
+    "human_verified_codes": "agency|functioning|interpretive_boundary",
+    "interpretive_memo": "Agency and functioning help describe, not diagnose, the experience.",
+    "machine_suggested_codes": "agency|narrative_reframing|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX019",
+    "interview_wave": "follow_up",
+    "excerpt_text": "A scripture phrase became personally vivid. It did not sound audible, but it felt addressed to my exact situation.",
+    "human_verified_codes": "attentional_shift|relational_presence|sensory_quality",
+    "interpretive_memo": "The participant carefully distinguishes vividness from external sound.",
+    "machine_suggested_codes": "attentional_shift|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX020",
+    "interview_wave": "midpoint",
+    "excerpt_text": "At first I kept the experience private because I was unsure what others would call it. The small group gave me language for it.",
+    "human_verified_codes": "ambiguity|communal_validation|narrative_reframing",
+    "interpretive_memo": "Shared language organizes an initially ambiguous event.",
+    "machine_suggested_codes": "communal_validation|narrative_reframing",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX021",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I still had difficult days, but the memory of being accompanied changed how alone the difficulty felt.",
+    "human_verified_codes": "relational_presence|persistence|nonlinear_change",
+    "interpretive_memo": "Persistence lies in a changed relation to distress, not its disappearance.",
+    "machine_suggested_codes": "nonlinear_change|persistence|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX022",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The experience became frightening when I could not sleep and felt pushed to act. I sought help from both a clinician and my pastor.",
+    "human_verified_codes": "distress_signal|agency|community_care",
+    "interpretive_memo": "The synthetic case demonstrates a dual clinical and community response.",
+    "machine_suggested_codes": "agency|distress_signal",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX023",
+    "interview_wave": "follow_up",
+    "excerpt_text": "Singing with other people made the presence feel stronger than when I prayed alone, though the quiet prayer felt more intimate.",
+    "human_verified_codes": "communal_validation|relational_presence|practice_comparison",
+    "interpretive_memo": "Different practices shape distinct qualities rather than a single intensity scale.",
+    "machine_suggested_codes": "relational_presence|communal_validation",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX024",
+    "interview_wave": "midpoint",
+    "excerpt_text": "Weeks later I could not reproduce the same warmth. What remained was a more patient way of responding to fear.",
+    "human_verified_codes": "embodied_change|persistence|behavioral_integration",
+    "interpretive_memo": "A transient sensation is distinguished from longer behavioral integration.",
+    "machine_suggested_codes": "persistence|agency|embodied_change",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX025",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I first noticed warmth across my chest. The situation had not changed, but my attention was no longer trapped by the worry.",
+    "human_verified_codes": "embodied_change|attentional_shift",
+    "interpretive_memo": "Body sensation and attentional movement are narrated together.",
+    "machine_suggested_codes": "attentional_shift|embodied_change|nonlinear_change",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX026",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The tears came before I could explain anything. I understood them as relief and as being known by God.",
+    "human_verified_codes": "embodied_change|relational_presence",
+    "interpretive_memo": "Tears acquire meaning through a perceived relationship.",
+    "machine_suggested_codes": "embodied_change|emotional_change|narrative_reframing",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX027",
+    "interview_wave": "follow_up",
+    "excerpt_text": "During prayer I felt loved rather than judged. That changed the story I had been telling about myself.",
+    "human_verified_codes": "relational_presence|narrative_reframing",
+    "interpretive_memo": "Divine relationship supports a revised self-narrative.",
+    "machine_suggested_codes": "narrative_reframing|relational_presence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX028",
+    "interview_wave": "midpoint",
+    "excerpt_text": "The peace was intense that evening, but what made it last was talking about it with people who knew me well.",
+    "human_verified_codes": "emotional_change|communal_validation|persistence",
+    "interpretive_memo": "Community is described as a mechanism of durability.",
+    "machine_suggested_codes": "communal_validation|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX029",
+    "interview_wave": "follow_up",
+    "excerpt_text": "I was grateful the next morning, although the old fear returned later. Recovery felt more like a rhythm than a single cure.",
+    "human_verified_codes": "emotional_change|nonlinear_change",
+    "interpretive_memo": "The account resists a simple permanent-transformation story.",
+    "machine_suggested_codes": "nonlinear_change|emotional_change|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  },
+  {
+    "excerpt_id": "EX030",
+    "interview_wave": "midpoint",
+    "excerpt_text": "I could choose whether to continue the prayer and I remained able to work. That sense of control mattered to how I understood it.",
+    "human_verified_codes": "agency|functioning|interpretive_boundary",
+    "interpretive_memo": "Agency and functioning help describe, not diagnose, the experience.",
+    "machine_suggested_codes": "agency|narrative_reframing|persistence",
+    "suggestion_status": "candidate_only_not_research_finding",
+    "synthetic": true
+  }
+]

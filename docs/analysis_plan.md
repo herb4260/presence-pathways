@@ -21,7 +21,13 @@
 
 ## Quantitative model
 
-For exposure x and outcome y, the demo estimates a person-centered slope by comparing each participant with their own mean. Confidence intervals use a participant-level cluster bootstrap. The unit tests verify that the implementation recovers known directions in synthetic data.
+For exposure \(x_{it}\) and outcome \(y_{it}\), the demo estimates a person-centered slope:
+
+\[
+\hat\beta = \frac{\sum_i\sum_t(x_{it}-\bar{x}_i)(y_{it}-\bar{y}_i)}{\sum_i\sum_t(x_{it}-\bar{x}_i)^2}
+\]
+
+Confidence intervals use a participant-level cluster bootstrap. The unit tests verify that the implementation recovers known directions in synthetic data.
 
 This estimate is not causal. A real study should preregister covariates, assess time-varying confounding, model measurement error, examine missingness, and use multilevel sensitivity analyses.
 
@@ -36,6 +42,10 @@ This estimate is not causal. A real study should preregister covariates, assess 
 7. Return from excerpts to full sequence, scene, and relationship.
 
 The keyword helper records only transparent candidate matches. It must never produce the final analytic code, clinical label, or interpretation.
+
+## Integration
+
+Create a joint display with one row per case and columns for trajectory, key scenes, community response, rival explanation, and researcher memo. Use numbers to locate cases for deeper reading; use ethnography to revise the meaning of the numerical constructs.
 
 ## Claims not supported by this design
 

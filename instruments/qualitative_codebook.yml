@@ -1,0 +1,53 @@
+version: "0.1.0"
+status: "demonstration codebook; revise inductively during fieldwork"
+codes:
+  embodied_change:
+    description: "Warmth, tears, breathing, bodily release, or another bodily shift."
+    include_when: "The body is part of how the change is noticed or interpreted."
+    exclude_when: "A body word appears only as an idiom without experiential detail."
+    keywords: ["warmth", "chest", "tears", "breathing", "body", "physical"]
+  attentional_shift:
+    description: "Attention moves away from threat, rumination, or distraction."
+    include_when: "The speaker describes a change in what occupies or directs attention."
+    exclude_when: "The excerpt describes calm without an attentional movement."
+    keywords: ["attention", "worry", "focus", "trapped", "scripture phrase", "vivid"]
+  emotional_change:
+    description: "Peace, gratitude, relief, joy, or another emotional movement."
+    include_when: "An emotion changes within or after the experience."
+    exclude_when: "Emotion is inferred by the researcher but not supported in the account."
+    keywords: ["peace", "grateful", "gratitude", "relief", "joy", "calm"]
+  relational_presence:
+    description: "God or an invisible other is experienced as present, knowing, loving, or accompanying."
+    include_when: "The account has a relational quality, not merely an abstract belief."
+    exclude_when: "The speaker reports doctrine without perceived interaction or presence."
+    keywords: ["known by God", "loved", "accompanied", "addressed", "presence", "intimate"]
+  narrative_reframing:
+    description: "The experience changes the story told about self, suffering, or future."
+    include_when: "Meaning or identity is explicitly reorganized."
+    exclude_when: "A new feeling is reported without a changed interpretation."
+    keywords: ["story", "language", "understood", "meaning", "about myself"]
+  communal_validation:
+    description: "A community supplies language, recognition, practice, or confirmation."
+    include_when: "Other people shape how the experience becomes understandable or durable."
+    exclude_when: "Other people are merely present with no interpretive or practical role."
+    keywords: ["people", "small group", "talking", "community", "together", "others"]
+  persistence:
+    description: "A change continues, returns, or is integrated beyond the peak event."
+    include_when: "The account distinguishes the event from what remains later."
+    exclude_when: "Only immediate intensity is described."
+    keywords: ["last", "remained", "weeks later", "memory", "next morning", "continues"]
+  nonlinear_change:
+    description: "Recovery includes return, fluctuation, partial change, or uncertainty."
+    include_when: "The speaker resists a simple before-and-after cure narrative."
+    exclude_when: "The excerpt merely mentions more than one time point."
+    keywords: ["returned", "rhythm", "difficult days", "not changed", "old fear"]
+  agency:
+    description: "The speaker describes choice, control, boundaries, or help-seeking."
+    include_when: "Agency is relevant to the quality or consequence of the experience."
+    exclude_when: "Choice is unrelated to the focal experience."
+    keywords: ["choose", "control", "sought help", "could not", "pushed to act"]
+  distress_signal:
+    description: "Fear, sleep disruption, coercion, loss of control, or impaired functioning."
+    include_when: "The account indicates potential distress requiring careful follow-up."
+    exclude_when: "Intensity alone is treated as distress."
+    keywords: ["frightening", "could not sleep", "pushed to act", "unable to work", "unsafe"]
