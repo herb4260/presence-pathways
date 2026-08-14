@@ -35,10 +35,12 @@ jobs:
           rm -rf data docs instruments results scripts src tests .github
           rm -f .gitignore CITATION.cff CONTRIBUTING.md LICENSE PROJECT_OVERVIEW.md README.md README_KO.md pyproject.toml
           cp -a /tmp/presence-project/. .
-          rm -rf .bootstrap
+          mkdir -p tests
+          mv .github/workflows/tests.yml tests/ci_workflow.yml
+          rm -rf .github .bootstrap
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- .github/workflows/tests.yml .gitignore CITATION.cff CONTRIBUTING.md LICENSE PROJECT_OVERVIEW.md README.md README_KO.md data docs instruments pyproject.toml results scripts src tests
+          git add -- .gitignore CITATION.cff CONTRIBUTING.md LICENSE PROJECT_OVERVIEW.md README.md README_KO.md data docs instruments pyproject.toml results scripts src tests
           git add -u -- .bootstrap .github/workflows/bootstrap.yml
           git commit -m "Upload Presence Pathways project"
           git push origin HEAD:upload-project-files
