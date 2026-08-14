@@ -1,0 +1,33 @@
+name: bootstrap-project
+
+on:
+  push:
+    branches:
+      - upload-project-files
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconstruct project
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/presence-project
+          cat .bootstrap/part-*.b64 | base64 --decode > /tmp/project.zip
+          echo "7a62b82c8cce886f2a228113205cb4721040f8f5314d17a583ebbccf41cd3f8d  /tmp/project.zip" | sha256sum -c -
+          unzip -q /tmp/project.zip -d /tmp/presence-project
+          rm -rf data docs instruments results scripts src tests .github
+          rm -f .gitignore CITATION.cff CONTRIBUTING.md LICENSE PROJECT_OVERVIEW.md README.md README_KO.md pyproject.toml
+          cp -a /tmp/presence-project/. .
+          rm -rf .bootstrap
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- .github/workflows/tests.yml .gitignore CITATION.cff CONTRIBUTING.md LICENSE PROJECT_OVERVIEW.md README.md README_KO.md data docs instruments pyproject.toml results scripts src tests
+          git add -u -- .bootstrap .github/workflows/bootstrap.yml
+          git commit -m "Upload Presence Pathways project"
+          git push origin HEAD:upload-project-files
