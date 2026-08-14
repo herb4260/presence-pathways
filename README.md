@@ -13,6 +13,24 @@ The repository combines longitudinal experience sampling (EMA), phenomenological
 
 The included dataset is entirely synthetic. No real participant or personal testimony appears in this repository.
 
+![Presence Pathways dashboard](docs/images/dashboard.svg)
+
+## Visual overview
+
+### Project workflow
+
+![Project workflow](docs/images/workflow.svg)
+
+### Sample findings
+
+![Synthetic sample findings](docs/images/findings.svg)
+
+### Study design
+
+![Study design](docs/images/study-design.svg)
+
+> All figures are explanatory visuals for the synthetic prototype. They are not real participant results and should not be interpreted as causal evidence.
+
 ## Live research demo
 
 After enabling GitHub Pages from the `/docs` folder, the dashboard becomes a public, no-backend research demo. Locally:
